@@ -7,7 +7,6 @@ Write your code in this editor and press "Run" button to compile and execute it.
 *******************************************************************************/
 
 #include <stdio.h>
-#include <math.h>
 
 int main()
 {
@@ -48,10 +47,26 @@ int main()
         case 8:
             printf("%d | Agosto", mes);
             break;
+            
         case 9:
-            printf("%d | Janeiro", mes);
+            printf("%d | Setembro", mes);
             break;
+            
+        case 10:
+            printf("%d | Outubro", mes);
+            break;
+            
+        case 11:
+            printf("%d | Novembro", mes);
+            break;
+            
+        case 12:
+            printf("%d | Dezembro", mes);
+            break;
+        
+        default:
+            printf("Número inválido!");    
     }
-    
+
     return 0;
 }
